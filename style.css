@@ -1,9 +1,33 @@
-body {
-    color: #444;
-    font-family: Arial, sans-serif;
+:root{
+  --ftcolor1 :#ffffff;
+  --ftcolor2 :#11007F;
 }
-
-.container {
+#icon{
+    max-width: 60px;
+    max-height: 100%;
+}
+#id0{
+    background-color: var(--ftcolor2);
+    color: var(--ftcolor1);
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    font-size:60px;
+}
+#id1{
+    background-color: var(--ftcolor2);
+    color: var(--ftcolor1);
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+}
+#map{
+    height: 530px;
     width: 100%;
-    max-width: 960px;
+    margin-top: 5px;
+}
+#dashboard {
+    font-family: 'Oxygen', sans-serif;
+    color: white;
+    font-size: 60px;
 }
